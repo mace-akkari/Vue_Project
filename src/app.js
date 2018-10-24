@@ -1,6 +1,5 @@
 import Vue from 'vue'
 //import App from './App.vue'
-import '../assets/app.css'
 
 //---------- VUE --------------
 Vue.component('repo-item', {
