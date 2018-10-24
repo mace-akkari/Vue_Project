@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>My Vue app with webpack 4</title>
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Github Vue.js</title>
+</head>
+<body>
+  <div class="container">
+    <div id="vue-repos">
+      <h1>{{ title }}</h1>
+       <ul>
+        <repo-item 
+          v-for="(repos, keys) in repos"
+          v-bind:repository="repos"
+          >
+        </repo-item>
+      </ul>
+    </div>
+  </div> 
+  <script script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</body>
 </html>
