@@ -1,0 +1,23 @@
+{
+  "name": "vue_project",
+  "version": "1.0.0",
+  "description": "vue.js repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mace-akkari/Vue_Project.git"
+  },
+  "author": "mace.akkari@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mace-akkari/Vue_Project/issues"
+  },
+  "homepage": "https://github.com/mace-akkari/Vue_Project#readme",
+  "devDependencies": {
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
