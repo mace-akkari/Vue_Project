@@ -4,7 +4,7 @@ const HtmlWebapckPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'development',
   entry: [
-    './src/app.js'
+    '/src/app.js'
   ],
   devServer: {
     hot: true,
